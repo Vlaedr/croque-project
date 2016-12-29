@@ -7,14 +7,6 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-    
-    <style name="MyTheme" parent="style/Theme.AppCompat.Light.NoActionBar">
-        <item name="android:actionBarStyle">@style/MyActionBar</item>
-
-    </style>
-    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
-        <item name="android:textColor">#BF3048</item>
-    </style>
 
 
 
