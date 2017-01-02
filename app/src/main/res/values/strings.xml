@@ -16,4 +16,6 @@
     <string name="lunch">DEJEUNER</string>
     <string name="croque_all_caps"> </string>
     <string name="settings">Settings</string>
+    <string name="come_back_tomorrow">On est fermé, revenez demain !</string>
+    <string name="opening_hours">L'application est ouverte de 8h à 14h</string>
 </resources>

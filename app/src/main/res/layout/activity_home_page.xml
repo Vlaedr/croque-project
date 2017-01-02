@@ -41,7 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/croque_main_drawing"
-        android:id="@+id/imageView"
+        android:id="@+id/main_drawing_open"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
