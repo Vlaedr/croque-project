@@ -21,7 +21,7 @@
 
     <Button
         android:id="@+id/lunch_button"
-
+        android:onClick="goToTodayQuestion"
         android:text="@string/lunch"
         android:textColor="#BF3048"
         android:textSize="30sp"

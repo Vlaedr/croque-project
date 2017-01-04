@@ -15,9 +15,7 @@ public class QuestionsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_questions);
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);
-        //myToolbar.setTitle(R.string.croque_all_caps);
         myToolbar.setTitleTextColor(Color.parseColor("#BF3048"));
-
     }
 
     @Override
