@@ -8,23 +8,13 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
-import android.widget.Button;
 
-import java.util.Calendar;
-
-public class HomePage extends AppCompatActivity {
+public class WaitingActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Calendar calendar = Calendar.getInstance();
-        int currentHour = calendar.get(Calendar.HOUR_OF_DAY);
-        /*if(currentHour < 8 || currentHour >= 14) {
-            setContentView(R.layout.closed_lunch_layout);
-        }else {
-            setContentView(R.layout.activity_home_page);
-        }*/
-        setContentView(R.layout.activity_home_page);
+        setContentView(R.layout.activity_waiting);
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);
         myToolbar.setTitleTextColor(Color.parseColor("#BF3048"));
@@ -37,8 +27,8 @@ public class HomePage extends AppCompatActivity {
         return true;
     }
 
-    public void goToTodayQuestion(View view) {
-        Intent intent = new Intent(this, QuestionsActivity.class);
+    public void goToHomePage(View view) {
+        Intent intent = new Intent(this, HomePage.class);
         startActivity(intent);
     }
 }

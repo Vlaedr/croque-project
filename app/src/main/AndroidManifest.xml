@@ -35,8 +35,10 @@
         </activity>
         <activity
             android:name=".QuestionsActivity"
-            android:label="@string/lunch"
-            />
+            android:label="@string/lunch" />
+        <activity
+            android:name=".WaitingActivity"
+            android:label="@string/croque_all_caps"/>
     </application>
 
 </manifest>

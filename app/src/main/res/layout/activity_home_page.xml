@@ -45,5 +45,15 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
+    <TextView
+        android:text="@string/question_of_the_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/main_drawing_open"
+        android:layout_alignLeft="@+id/lunch_button"
+        android:layout_alignStart="@+id/lunch_button"
+        android:id="@+id/question_title"
+        android:textColor="#BABABA" />
+
 
 </RelativeLayout>
