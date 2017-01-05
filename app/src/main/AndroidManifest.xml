@@ -9,7 +9,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/icone_croque"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
@@ -38,7 +38,10 @@
             android:label="@string/lunch" />
         <activity
             android:name=".WaitingActivity"
-            android:label="@string/croque_all_caps"/>
+            android:label="@string/croque_all_caps" />
+        <activity
+            android:name=".PossibleHoursActivity"
+            android:label="@string/lunch"/>
     </application>
 
 </manifest>

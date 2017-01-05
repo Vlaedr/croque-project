@@ -22,4 +22,6 @@
     <string name="searching">On vous cherche un groupe...</string>
     <string name="cancel_lunch_string">JE NE DÉJEUNE PLUS</string>
     <string name="warn_user">On vous préviendra quand on aura trouvé quelqu\'un !</string>
+    <string name="what_time">À quel horaire\n manges-tu ?</string>
+    <string name="noon_to_one">12\n - \n 13h</string>
 </resources>
